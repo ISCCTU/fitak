@@ -22,7 +22,7 @@ Installation
 ------------
 - `git clone https://github.com/fitak/fitak.git`
 - Create `log` and `tmp` dirs (make them writeable) in the project root folder
-- Install Composer and call `composer install` in the project root folder
+- Install [Composer](https://getcomposer.org) and call `composer install` in the project root folder
 - Create a database from /sql-structure.sql
 - Rename `/app/config/devel_example.neon` to `devel.neon` and edit parameters for your devel DB
 - Rename `/app/config/product_example.neon` to `product.neon` and edit parameters for your product DB
